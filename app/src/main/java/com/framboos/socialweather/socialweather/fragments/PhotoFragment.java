@@ -77,8 +77,6 @@ public class PhotoFragment extends Fragment {
 
                 // Apply the alpha to the blurry image
                 originalImageView.setAlpha(alpha);
-
-                Log.w("PhotoFragment", "Alpha: " + alpha);
             }
         });
 
