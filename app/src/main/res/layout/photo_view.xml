@@ -15,13 +15,17 @@
   -->
 
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    android:background="@android:color/white"
     android:fillViewport="false">
 
-    <!-- Dummy content. -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stockfotoftw"
+        android:scaleType="centerCrop" />
 
-</ScrollView>
+</RelativeLayout>
